@@ -4,17 +4,17 @@ The Resume Generator is a web application that allows users to create profession
 The tech stacks used in the Resume Generator consists of the following components:
 
 # Front-end
-HTML
-CSS
-JavaScript
-Bootstrap
-JQuery
+1. HTML
+2. CSS
+3. JavaScript
+4. Bootstrap
+5. JQuery
 
 The front-end components handle the user interface and form inputs. They enable users to enter their resume details, choose templates, and customize the design.
 
 # Back-end
-Node.js
-Express.js
+1. Node.js
+2. Express.js
 
 The back-end components are responsible for processing user input, interacting with the Adobe Document Generation API, and handling file operations.
 
