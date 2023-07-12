@@ -1,0 +1,3 @@
+module.exports.PDF_SERVICES_CLIENT_ID = "fa431bea5e034ae4b3c72263f7405764"; // CLIENT ID
+module.exports.PDF_SERVICES_CLIENT_SECRET =
+  "p8e-whLZmXcpLhMZPQu5l-izYPJLsm3E-Tgn"; //CLIENT SECRET KEY
