@@ -1,0 +1,36 @@
+<form onsubmit="return false" id="form5">
+    <fieldset style="padding-bottom: 0px;">
+    <legend class="float-none w-auto px-2">Education
+        <button class="form-element form-control" id="add-education">+</button>
+    </legend>
+
+    <div class="education">
+
+        <i class="fa-solid fa-trash fa-2xl" id="delete" hidden></i>
+
+        <div class="flex-wrap">
+            <div class="form-group">
+                <label class="form-label" for="school-name">School Name: </label>
+                <input type="text" class="form-element form-control" id="school-name" name="education[][school_name]" placeholder="Enter School Name" required>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="starting-year">Starting Year: </label>
+                <input type="text" class="form-element form-control" id="starting-year" name="education[][starting_year]" placeholder="Enter Starting Year" required>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="ending-year">Ending Year: </label>
+                <input type="text" class="form-element form-control" id="ending-year" name="education[][ending_year]" placeholder="Enter Ending Year" required>
+            </div>
+        </div>
+
+        <div class="form-group" style="width:93%">
+            <label class="form-label" for="description" style="margin:0px;">Description: </label>
+            <textarea class="form-control" name="education[][description]" id="description" rows="5" required></textarea>
+        </div>
+        
+    </div>
+
+    </fieldset>
+</form>

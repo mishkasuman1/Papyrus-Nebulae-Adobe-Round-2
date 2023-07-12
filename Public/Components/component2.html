@@ -1,0 +1,32 @@
+<form id="form2" onsubmit="return false;">
+    <fieldset>
+        <legend class="float-none w-auto px-2">Personal Details</legend>
+
+        <div class="flex-wrap">
+            <div class="form-group">
+                <label for="first-name" class="form-label">First Name: </label>
+                <input type="text" class="form-control" id="first-name" name="personal_information[first_name]" placeholder="Enter First Name" required>
+            </div>                                                                                                               
+
+            <div class="form-group">
+                <label for="last-name" class="form-label">Last Name: </label>
+                <input type="text" class="form-control" id="last-name" name="personal_information[last_name]" placeholder="Enter Last Name" required>
+            </div>
+        </div>
+
+        <div class="email-address form-group">
+            <label for="email-address" class="form-label">Email Address: </label>
+            <input type="email" class="form-control" id="email-address" name="personal_information[email_address]" placeholder="Enter Email Address" required>
+        </div>
+
+        <div class="contact-number form-group">
+            <label for="contact-number" class="form-label">Contact Number: </label>
+            <input type="tel" class="form-control" id="contact-number" name="personal_information[contact_number]" placeholder="Enter Contact Number" required>
+        </div>
+
+        <div class="linkedin-url form-group">
+            <label for="linkedin-url" class="form-label">Linkedin URL: </label>
+            <input type="url" class="form-control" id="linkedin-url" name="personal_information[linkedin_url]" placeholder="Enter Linkedin URL" required>
+        </div>
+    </fieldset>
+</form>
