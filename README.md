@@ -30,7 +30,7 @@ To use the Resume Builder app, follow these steps:
 7. Modify or replace the resume templates in the templates folder with your desired designs.
 8. Start the server.
 9. Access the app.
-10. Open a web browser and visit http://localhost:3000.
+10. Open a web browser and visit http://localhost:5000.
 11. The Resume Builder app will be displayed.
 12. Create a resume.
 13. Fill in the resume form with your personal information, education, work experience, skills, and other relevant sections.
