@@ -1,6 +1,6 @@
 // Variable declarations
 let templateId = "a";
-let currentComponent = 5;
+let currentComponent = 1;
 
 function handleComponent1() {
   const templates = document.querySelectorAll(".template");
